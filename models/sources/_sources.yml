@@ -1,0 +1,8 @@
+sources:
+  - name: staging
+    database: PC_FIVETRAN_DB  
+    schema: GOOGLE_ADS_DEMO  
+    tables:
+      - name: click_performance
+      - name: criteria_performance
+      - name: final_url_performance

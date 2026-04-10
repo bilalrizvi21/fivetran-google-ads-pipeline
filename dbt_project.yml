@@ -1,0 +1,30 @@
+name: 'google_ads_project'
+version: '1.0.0'
+
+
+profile: 'google_ads_project'
+
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:         
+  - "target"
+  - "dbt_packages"
+
+models:
+  google_ads_project:
+    
+    bronze:
+      +materialized: table
+      +schema: bronze
+    staging:
+      +materialized: table
+      +schema: staging
+    marts:
+      +materialized: table
+      +schema: mart  

@@ -1,0 +1,1 @@
+select * from {{ source('staging', 'final_url_performance') }}
