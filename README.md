@@ -13,8 +13,9 @@
 This project demonstrates a production-ready data engineering workflow that transforms raw Google Ads data into actionable marketing insights. Using a **Medallion (Star Schema) Architecture**, I converted unstructured API data from Fivetran into a high-performance analytical hub.
 
 ## 📺 Project Demo
+Click the image below to watch the full demo on YouTube:
 
-
+[![Watch the Demo](https://img.youtube.com/vi/otph3H1tDtQ/maxresdefault.jpg)](https://youtu.be/otph3H1tDtQ)
 
 
 *A walkthrough covering the Snowflake ingestion, dbt transformations, and Power BI visualization.*
@@ -28,7 +29,7 @@ This project demonstrates a production-ready data engineering workflow that tran
 * **BI & Visualization:** [Power BI](https://powerbi.microsoft.com/) (Star Schema modeling and KPI reporting).
 
 ### Data Lineage
-![dbt Lineage Graph]([image.png])
+![dbt Lineage Graph]([./google_ads_project_lineage.png])
 
 The pipeline follows a modular design:
 1.  **Staging Layer:** Cleaning, casting, and renaming raw fields.
