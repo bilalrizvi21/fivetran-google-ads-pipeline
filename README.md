@@ -22,6 +22,7 @@ Click the image below to watch the full demo on YouTube:
 
 ---
 
+
 ## 🏗️ Architecture & Stack
 * **Data Ingestion:** [Fivetran](https://fivetran.com/) (Automated extraction from Google Ads API to Snowflake).
 * **Data Warehouse:** [Snowflake](https://www.snowflake.com/) (Bronze/Silver/Gold layering).
