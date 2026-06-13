@@ -47,6 +47,11 @@ The pipeline follows a modular design:
 
 ---
 
+### Dashboard
+
+![Dashboard](google_ads_dashboard.png)
+---
+
 ## 📊 Business Impact
 * **Eliminated Manual Reporting:** Automated the extraction and cleaning of Google Ads data.
 * **Improved Accuracy:** Centralized logic in the warehouse ensures consistent KPIs across all reports.
